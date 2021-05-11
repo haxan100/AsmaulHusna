@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text } from 'react-native'
-import {Asmaul ,Wirid,DoaHarian, NiatSholat} from '../Halaman'
+import {Asmaul ,Wirid,DoaHarian, NiatSholat, Quran} from '../Halaman'
 
 export default function App() {
     return (
@@ -8,7 +8,8 @@ export default function App() {
             {/* <Asmaul/> */}
             {/* <Wirid /> */}
             {/* <DoaHarian /> */}
-            <NiatSholat/>
+            {/* <NiatSholat/> */}
+            <Quran/>
         </View>
     )
 }
